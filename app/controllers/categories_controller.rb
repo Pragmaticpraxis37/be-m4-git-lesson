@@ -1,4 +1,5 @@
 class CategoriesController < ApplicationController
+  #This is the second comment
   def index
     @categories = Category.all
   end
